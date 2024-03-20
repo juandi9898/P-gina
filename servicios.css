@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+    color: #333;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+header {
+
+    background-color:rgb(18, 78, 114,1);
+    color: white;
+    padding: 1rem;
+    display:flex;
+    justify-content: space-around ;
+    position: fixed;
+    width: 100%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 80px;
+    
+}
+
+
+header h1 {
+
+    margin: 0;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+
+    display: inline;
+    margin-right: 1rem;
+    font-size: 20px;
+}
+
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+  
+}
+
+header ul li a:hover{
+    color: cyan;
+}
+
+#servi{
+
+    padding: 150px; 
+    margin: 0px;
+    text-align: center;
+    
+ }
+ 
+
+ 
+
+ol{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+
+
+
+ ol li{
+    font-size: 10´px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color:rgb(18, 78, 114,1);
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0px 2px 12px rgb(18, 78, 114,1);
+    margin: 40px;
+    width: 400px;
+    align-items: center;
+    
+}
+
+
+ol li:hover{
+    box-shadow: 0px 2px 12px rgb(5, 159, 255);
+
+}
+ 
+ 
+ #servi h2{
+     font-size: 25px;
+     text-align: center;
+     color: rgb(18, 78, 114,1);
+ 
+ }
+ 
+ #servi p{
+  text-align: justify ;
+  margin: 30px;
+  font-size: 20px;
+  
+ }
+
+ footer {
+    background-color:rgb(18, 78, 114,1);
+    color: white;
+    padding:2rem;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+
+}

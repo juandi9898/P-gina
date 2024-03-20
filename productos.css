@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+    color: #333;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header {
+
+
+
+    background-color:rgb(18, 78, 114,1);
+    color: white;
+    padding: 1rem;
+    display:flex;
+    justify-content: space-around ;
+    position: fixed;
+    width: 100%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 80px;
+    z-index: 2;
+}
+
+
+
+
+header h1 {
+
+    margin: 0;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+
+    display: inline;
+    margin-right: 1rem;
+    font-size: 20px;
+}
+
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+  
+}
+
+header ul li a:hover{
+    color: cyan;
+}
+
+#Pds{
+
+    padding: 100px; 
+    margin: 0px;
+    text-align: center;
+ 
+ }
+
+iframe{
+    border-radius: 50px;
+
+}
+
+iframe:hover{
+    box-shadow : 0px 0px 200px 5cap rgb(101, 196, 255);
+
+}
+
+ 
+ 
+ 
+ h2{
+     font-size: 25px;
+     text-align: center;
+     color: rgb(18, 78, 114,1);
+ 
+ }
+
+ h3{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(18, 78, 114,1);
+ }
+ 
+ #Pds p{
+  text-align: center ;
+  margin: 20px;
+  font-size: 20px;
+  
+ }
+
+
+table{
+        border-radius: 20px;
+        width: 80%;
+        height:30%;
+
+}
+
+th{
+    background-color: rgb(18, 78, 114,1);
+    color: white;
+    font-size: 30px;
+}
+tr{
+    font-size: 30px;
+}
+
+.Zapatos{
+    margin-left: 100px   ;
+}
+
+.Zapatos ul,.Zapatos2 ul{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+}
+
+.Zapatos li{
+    
+    font-size: 5px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: 400;
+    color:rgb(18, 78, 114,1);
+    /*background-color:#a1e7ff;*/
+    border-radius: 40px;    
+    box-shadow: 0px 2px 12px rgb(18, 78, 114,1);
+    margin: 10px;
+    justify-content: center ;
+    width:350px;
+    height: 400px;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+.Zapatos li:hover{
+    box-shadow :5px 5px 102px rgb(101, 196, 255);
+    
+}
+
+.Zapatos li h2:hover{
+    color: cyan;
+}
+.Zapatos li img{
+    border-radius: 20px;
+    
+}
+.Zapatos li:hover {
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+}
+.Zapatos {overflow:hidden;}
+
+
+img:hover {
+    filter: saturate(300%);
+}
+footer {
+    background-color:rgb(18, 78, 114,1);
+    color: white;
+    padding:2rem;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+
+}
